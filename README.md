@@ -11,9 +11,10 @@ easyss uses the config file create by the AWS cli eg:
 
 ## Running
 
-pipenv run python easyss/easyss.py <command> <--project=PROJECT>
+pipenv run python easyss/easyss.py <command> <subcommand> <--project=PROJECT>
 
-*command* is list, start, or stop
+*command* is instances, volumes, or snapshots
+*subcommand* - depends on command 
 *project* is optional
 
 
